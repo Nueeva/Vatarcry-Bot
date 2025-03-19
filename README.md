@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Bot
 =======
-## NEOXR-BOT (BETA TEST)
+## Vatarcry-BOT (BETA BOT)
 
 > An implementation of [@neoxr/wb](https://www.npmjs.com/package/@neoxr/wb) which has been optimized to be lightweigth.
 
@@ -31,55 +31,6 @@ const client = new Baileys({
 })
 ```
 
-> Each database provider has different function names, so read the [documentation](https://github.com/neoxr/session) and understand them.
-
-### Script Delay 🤣
-
-> Untuk yang melapor masalah terkait script delay, itu memang sengaja dari sistem cooldown (anti spam) untuk meminimalisir banned dari pihak whatssapp dan jika fitur ini membuat tidak nyaman saat menggunakan bot silahkan matikan dengan command : **.antispam off**
-
-### Premium Script v4.1-Optima
-
-🏷️ Price : **Rp. 150.000 / $20.80**
-
-**Special Features & Benefit :**
-- Auto Download
-- Porn Detector (Image Only)
-- 32 Mini Games
-- Leveling & Roles
-- Email Verification
-- Send Email
-- Cloud Storage
-- Menfess w/ Session
-- Store Plugin (Product)
-- Jadibot (Auto Connect)
-- Mistery Box
-- High Optimation
-- Free Updates
-- Bonus ApiKey 100K Request (for 1 year)
-
-> Note : Script Premium sudah terdapat semua additional features, kecuali payment gateway.
-
-**Additional Features :**
-
-> Addional Features adalah fitur tambahan yang di jual terpisah / Additional features are features that are sold separately.
-
-🏷️ Cloud Storage (**+Rp. 35.000 / +$6.80**)
-
-> Cloud Storage ini berfungsi untuk menyimpan file media (sticker, foto, video, audio) ke cloud storage tanpa membebani disk space server karena file langsung di simpan kedalam database. Plugin **storage.js** dan **storage_ev.js**
-
-🏷️ Menfess (**+Rp. 15.000 / +$3.80**)
-
-> Menfess untuk mengirim chat confess kepada seseorang dan penerima pesan bisa membalas chat dari pengirim confess tanpa perlu menggunakan command/perintah
-
-🏷️ Payment Gateway (**+Rp. 80.000 / +$10.80**)
-
-> Payment Gateway ini berfungsi untuk melakukan pembayaran otomatis menggunakan QRIS pada fitur ini terdapat script **payment gateway**, plugin **payment.js**, **sewa.js** dan **buyprem.js** harga dan fee bisa di sesuaikan sesuai keinginan, dalam pembelian mendapat 2 script payment gateway yaitu dari saweria dan paydisini yang mendukung all payment
-
-🏷️ Game Plugins (**+Rp. 70.000 / +$9.80**)
-
-> 32 plugin game yang semuanya tanpa menggunakan api dan tanpa di enskripsi, dengan ini ada tambahan update schema, profile, rank, pocket, dll.
-
-**Creator / Group** : [Wildan Izzudin](https://wa.me/6285887776722) / [Chatbot](https://chat.whatsapp.com/D4OaImtQwH48CtlR0yt4Ff)
 
 ### Requirements
 
@@ -173,43 +124,6 @@ const isSpam = spam.detection(client, m, {
 console.log(isSpam.state)
 ```
 
-Look, i tries to spam commands against the bot, and will only respond to 1 command.
-
-<p align="center"><img align="center" width="100%" src="https://telegra.ph/file/facb21ff04392f5b65442.png" /></p>
-
-and the message gets a red label [ SPM ] as spam message in the terminal.
-
-<p align="center"><img align="center" width="100%" src="https://telegra.ph/file/8929ba9545ecc024bc348.png" /></p>
-
-### Run on Heroku
-
-To run this bot on Heroku you only need to add 2 buildpacks and choose region EU (EUROPE) for your app :
-
-+ NodeJS
-+ FFMPEG [https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)
-
-
-delete the `package.json`, and rename `package-for-heroku.json` to `package.json`
-
-
-### Run on Clovyr
-
-Clovyr is a free cloud compute with vscode based for running bot with specifications of 2 CPU and 4GB RAM (idk storage size)
-
-<p align="center"><img align="center" width="100%" src="https://telegra.ph/file/879907dac646d1cb4c017.png" /></p>
-
-with vscode it will be very easy to do recode and debugging scripts
-
-<p align="center"><img align="center" width="100%" src="https://telegra.ph/file/7e33c1e83a872f4f8d363.png" /></p>
-
-**Notes** :
-+ ```CLOVYR_APPNAME``` : application name on your clovyr
-
-> Specifically for the 2 configurations below, you must carry out an inspect element using a computer to get cookies and keep-alive links
-
-+ ```CLOVYR_URL``` : keep-alive link
-
-+ ```CLOVYR_COOKIE``` : cookie from clovyr
 
 ### Pairing Code
 
@@ -356,7 +270,6 @@ exports.run = {
 event.async(m, { client, body, prefixes, groupMetadata, participants, users, chats, groupSet, setting, isOwner, isAdmin, isBotAdmin, plugins, blockList, env, ctx, Func, Scraper })
 ```
 
-Others please learn by yourself from other plugins.
 
 Check this repository regularly to get updates because the progress base is not 100% yet (this is just a base or beta test), if you find an error please make an issue. Thanks.
 >>>>>>> 7696a6b (Initial commit)
