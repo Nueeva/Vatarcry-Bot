@@ -1,0 +1,22 @@
+{
+   "owner": "6281212994597",
+   "owner_name": "Nueva",
+   "database": "data",
+   "limit": 15,
+   "ram_limit": "1500mb",
+   "max_upload": 500,
+   "max_upload_free": 100,
+   "cooldown": 1,
+   "timer": 180000,
+   "timeout": 1800000,
+   "permanent_threshold": 3,
+   "notify_threshold": 4,
+   "banned_threshold": 5,
+   "blocks": ["994", "91", "92"],
+   "evaluate_chars":  ["=>", "~>", "<", ">", "$"],
+   "pairing": {
+      "state": true,
+      "number": 6285710073705
+   },
+   "replit_url": ""
+}
